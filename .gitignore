@@ -1,8 +1,19 @@
-echo "# ideas Innovadoras-OpenEnglish" >> README.md 
-git init 
-git add README.md 
-git commit -m "Historia de Open English
-Muchos identifican a Open English a través de los spots televisivos que son exitosos en Latinoamérica por su humorismo e ironía a las situaciones que comúnmente suceden cuando no manejas bien un idioma.
-Andrés Moreno, creador y fundador del startup Open English, es uno de los emprendedores más importantes de Latinoamérica, gracias a la innovación de sus modelos de enseñanza para satisfacción de sus clientes.
-git add remoto origen https://github.com/lorenauribe/Ideas-innovadoras-OpenEnglish.git"
- -u git push origin master
+# Build and Release Folders
+bin/
+bin-debug/
+bin-release/
+[Oo]bj/ # FlashDevelop obj
+[Bb]in/ # FlashDevelop bin
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
