@@ -1,0 +1,6 @@
+echo "# ideas Innovadoras-OpenEnglish" >> README.md 
+git init 
+git add README.md 
+git commit -m "primera cometer" 
+git add remoto origen https://github.com/lorenauribe/Ideas-innovadoras-OpenEnglish.git
+ -u git push origin master
